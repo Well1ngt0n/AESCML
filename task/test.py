@@ -14,9 +14,9 @@ import numpy as np
 # ans = (np.take(x, y)).max()
 # print(ans)
 
-# x = np.array([1, 1, 1, 5, 5, 5, 6, 7, 7, 7, 5, 5])
-# a = np.diff(x)
-# a = np.argwhere(a == 0)
-# print(a)
+x = np.array([1, 1, 1, 5, 5, 5, 6, 7, 7, 7, 5, 5])
+a = np.diff(x)
+a = np.argwhere(a == 0)
+print(a)
 # a = np.reshape(a, -1)
 # print(a)
